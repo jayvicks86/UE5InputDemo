@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UE5_InputDemo",
+			"Path": "C:\\Users\\jayvi\\Downloads\\UE5_InputDemo\\Source\\UE5_InputDemo.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UE5_InputDemoEditor",
+			"Path": "C:\\Users\\jayvi\\Downloads\\UE5_InputDemo\\Source\\UE5_InputDemoEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

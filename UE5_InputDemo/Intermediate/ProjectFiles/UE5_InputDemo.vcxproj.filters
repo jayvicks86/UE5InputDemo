@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\UE5_InputDemo.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UE5_InputDemo.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\UE5_InputDemoEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\UE5_InputDemo">
+      <UniqueIdentifier>{1C58B23F-0D68-35E5-99C5-DCFF93A5EA07}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\UE5_InputDemo\TP_PickUpComponent.cpp">
+      <Filter>Source\UE5_InputDemo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE5_InputDemo\TP_PickUpComponent.h">
+      <Filter>Source\UE5_InputDemo</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UE5_InputDemo\TP_WeaponComponent.cpp">
+      <Filter>Source\UE5_InputDemo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE5_InputDemo\TP_WeaponComponent.h">
+      <Filter>Source\UE5_InputDemo</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\UE5_InputDemo\UE5_InputDemo.Build.cs">
+      <Filter>Source\UE5_InputDemo</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\UE5_InputDemo\UE5_InputDemo.cpp">
+      <Filter>Source\UE5_InputDemo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE5_InputDemo\UE5_InputDemo.h">
+      <Filter>Source\UE5_InputDemo</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UE5_InputDemo\UE5_InputDemoCharacter.cpp">
+      <Filter>Source\UE5_InputDemo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE5_InputDemo\UE5_InputDemoCharacter.h">
+      <Filter>Source\UE5_InputDemo</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UE5_InputDemo\UE5_InputDemoGameMode.cpp">
+      <Filter>Source\UE5_InputDemo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE5_InputDemo\UE5_InputDemoGameMode.h">
+      <Filter>Source\UE5_InputDemo</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UE5_InputDemo\UE5_InputDemoProjectile.cpp">
+      <Filter>Source\UE5_InputDemo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE5_InputDemo\UE5_InputDemoProjectile.h">
+      <Filter>Source\UE5_InputDemo</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
