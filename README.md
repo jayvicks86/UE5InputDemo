@@ -1,11 +1,11 @@
 # UE5InputDemo
  Demonstration of Enhanced input being set up on the player controller & passing values to the player via an interface.
  
- -[Input Actions](https://github.com/jayvicks86/UE5InputDemo/tree/main#input-actions)
- -[The Interface](https://github.com/jayvicks86/UE5InputDemo/tree/main#the-interface)
- -[Player COntroller](https://github.com/jayvicks86/UE5InputDemo/tree/main#the-player-controller)
- -[Player Character](https://github.com/jayvicks86/UE5InputDemo/tree/main#the-player-character)
- -[Blueprint Setup](https://github.com/jayvicks86/UE5InputDemo/tree/main#the-blueprint-setup)
+ - [Input Actions](https://github.com/jayvicks86/UE5InputDemo/tree/main#input-actions)
+ - [The Interface](https://github.com/jayvicks86/UE5InputDemo/tree/main#the-interface)
+ - [Player COntroller](https://github.com/jayvicks86/UE5InputDemo/tree/main#the-player-controller)
+ - [Player Character](https://github.com/jayvicks86/UE5InputDemo/tree/main#the-player-character)
+ - [Blueprint Setup](https://github.com/jayvicks86/UE5InputDemo/tree/main#the-blueprint-setup)
 
  This is a basic setup, and as with everything, there are multiple ways to go about this, such as with the input values and pointer types; I'll try to cover as much as I can here while trying to keep things streamlined. I'll also post links to docs for more information.
 
