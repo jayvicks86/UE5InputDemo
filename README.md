@@ -44,7 +44,7 @@ Don't forget your includes and forward declarations!
 ### CPP
 First, setup the subsystem like so:
 
-[Subsystem](https://github.com/jayvicks86/UE5InputDemo/blob/main/Images/Subsystem.png)
+![Subsystem](https://github.com/jayvicks86/UE5InputDemo/blob/main/Images/Subsystem.png)
 
 And set your player character pointer variable using `GetPawn()`; you'll use this with the interface calls; speaking of which, don't forget to include anything your forward declared in the header.
  you should have the following somewhere in your controller
@@ -57,7 +57,7 @@ any errors, check for these!
 
 In the `SetupInputComponent()`, we will bind our actions like so:
 
-[Bindings](https://github.com/jayvicks86/UE5InputDemo/blob/main/Images/Bindings.png)
+![Bindings](https://github.com/jayvicks86/UE5InputDemo/blob/main/Images/Bindings.png)
 
 if you aren't using soft pointers you don't need the `if(_InputActions.LoadSynchronus())` condition; this just prevents the engine from crashing on play or you having to open your DA in the editor before playing.
 
@@ -74,4 +74,26 @@ Set any variables, such as what I have done setting my walk speed, and then add 
 
 
 ## The Blueprint Setup
+We now need to create blueprint instances on the editor side.
+![GameMode](https://github.com/jayvicks86/UE5InputDemo/blob/main/Images/GameModeBP.png)
+
+![PC/PCH](https://github.com/jayvicks86/UE5InputDemo/blob/main/Images/PC_PCH_BPs.png)
+
+### Input Action Data Asset
+In the input folder right-click and add a DA as shown below, when you select it you will find the class you made in the list
+![DataAsset](https://github.com/jayvicks86/UE5InputDemo/blob/main/Images/CreateDA.png)
+
+![DataClass](https://github.com/jayvicks86/UE5InputDemo/blob/main/Images/DAtype.png)
+
+once created you can populate the asset with your input actions, don't forget to make one for the sprint.
+
+### Mapping Context
+You can adjust the default mapping context and create new ones as needed depending on your project. The important thing to note here is the trigger type.
+![Mapping Context](https://github.com/jayvicks86/UE5InputDemo/blob/main/Images/Mappingcontext.png)
+
+Going back to the Game Mode, now you have the BP versions of the controller & character you can complete the settings and set the Mode in the project settings.
+![GMSettings](https://github.com/jayvicks86/UE5InputDemo/blob/main/Images/GameMode%20Settings.png)
+![AssigningGM](https://github.com/jayvicks86/UE5InputDemo/blob/main/Images/AssignGameMode.png)
+
+lastly, in your player controller assign the mapping context and input actions DA in the details panel. 
 
