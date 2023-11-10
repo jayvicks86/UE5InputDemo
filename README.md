@@ -1,4 +1,4 @@
-# UE5InputDemo
+#UE5InputDemo
  Demonstration of Enhanced input being set up on the player controller & passing values to the player via an interface.
 
  This is a basic setup, and as with everything, there are multiple ways to go about this, such as with the input values and pointer types; I'll try to cover as much as I can here while trying to keep things streamlined. I'll also post links to docs for more information.
@@ -18,7 +18,7 @@ You could use `TObjectPtr<UInputAction>Move;` this will require a static cast to
 
 Add actions for look and sprint, too.
 
-###The Interface
+##The Interface
 Hopefully, you know this part by now, but if not, please refer to the slides.
 Create UFUNCTIONs for your inputs like so:
 `UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
@@ -28,10 +28,12 @@ Create UFUNCTIONs for your inputs like so:
 [InputActionValue](https://docs.unrealengine.com/5.3/en-US/API/Plugins/EnhancedInput/FInputActionValue/)
 [InputActionInstance](https://docs.unrealengine.com/4.26/en-US/API/Plugins/EnhancedInput/FInputActionInstance/)
 
+[Input Type](https://github.com/jayvicks86/UE5InputDemo/blob/main/Images/ActionInstance.jpg)
+
 Again, add functions for your input.
 
-###The Player Controller
-#### Header
+##The Player Controller
+###Header
 Here, I make a `TSoftObjectPtr` to `UInputMappingContext`, one to our data asset and a `TObjectPtr` to an AAtor to store the player in. 
 
 Next, create an override to the `SetupInputCompnent()`, which is where setup in the player differs, as that needs `SetupPlayerInputController()`; see example character. 
@@ -39,9 +41,11 @@ Next, create an override to the `SetupInputCompnent()`, which is where setup in 
 Finally, add controller action methods which we will bind to, making sure to add ActionInstance parameters.
 Don't forget your includes and forward declarations!
 
-#### CPP
+###CPP
 First, setup the subsystem like so:
-1111111111111111111111111111111111111111111111111111111111111
+
+[Subsystem](https://github.com/jayvicks86/UE5InputDemo/blob/main/Images/Subsystem.png)
+
 And set your player character pointer variable using `GetPawn()`; you'll use this with the interface calls; speaking of which, don't forget to include anything your forward declared in the header.
  you should have the following somewhere in your controller
  - EnhancedInputCOmponet.h
@@ -52,17 +56,19 @@ And set your player character pointer variable using `GetPawn()`; you'll use thi
 any errors, check for these!
 
 In the `SetupInputComponent()`, we will bind our actions like so:
-11111111111111111111111111111111111111111111111111111111111111111111111111
+
+[Bindings](https://github.com/jayvicks86/UE5InputDemo/blob/main/Images/Bindings.png)
+
 if you aren't using soft pointers you don't need the `if(_InputActions.LoadSynchronus())` condition; this just prevents the engine from crashing on play or you having to open your DA in the editor before playing.
 
 Finally, your action methods; these just call your interface using `IYOURINTERFACENAME::Execute_Move` passing the player and the Instance.
 
-### The Player Character
-#### Header
+##The Player Character
+###Header
 Nice and straightforward, firstly, add your interface by adding `, public IYOURINTERFACENAME` on the end of `: public character`
 I have added a couple of variables for sprinting and general speeds and then added the virtual implementation functions of the interface.
 
-#### CPP
+### CPP
 
 Set any variables, such as what I have done setting my walk speed, and then add in the functionality of your action functions. You can see my setup is a little different from the example character just to show different methods, such as the example character uses `AddMovementInput(GetActorForwardVector(), MovementVector.Y);` and using ActionValue doesn't require `.GetValue()` before `Get()`. Either way is fine.
 
