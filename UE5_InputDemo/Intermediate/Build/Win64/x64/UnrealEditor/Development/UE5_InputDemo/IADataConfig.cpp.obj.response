@@ -1,9 +1,9 @@
-C:\Users\jayvi\Downloads\UE5_InputDemo\Source\UE5_InputDemo\Private\IADataConfig.cpp
+C:\Users\jayvi\source\UE5InputDemo\UE5_InputDemo\Source\UE5_InputDemo\Private\IADataConfig.cpp
 /I .
-/I C:\Users\jayvi\Downloads\UE5_InputDemo\Source\UE5_InputDemo\Private
-/I C:\Users\jayvi\Downloads\UE5_InputDemo\Intermediate\Build\Win64\UnrealEditor\Inc\UE5_InputDemo\UHT
-/I C:\Users\jayvi\Downloads\UE5_InputDemo\Source
-/I C:\Users\jayvi\Downloads\UE5_InputDemo\Source\UE5_InputDemo\Public
+/I C:\Users\jayvi\source\UE5InputDemo\UE5_InputDemo\Source\UE5_InputDemo\Private
+/I C:\Users\jayvi\source\UE5InputDemo\UE5_InputDemo\Intermediate\Build\Win64\UnrealEditor\Inc\UE5_InputDemo\UHT
+/I C:\Users\jayvi\source\UE5InputDemo\UE5_InputDemo\Source
+/I C:\Users\jayvi\source\UE5InputDemo\UE5_InputDemo\Source\UE5_InputDemo\Public
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
 /I Runtime
@@ -292,12 +292,12 @@ C:\Users\jayvi\Downloads\UE5_InputDemo\Source\UE5_InputDemo\Private\IADataConfig
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
-/FI"C:\Users\jayvi\Downloads\UE5_InputDemo\Intermediate\Build\Win64\x64\UE5_InputDemoEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
-/FI"C:\Users\jayvi\Downloads\UE5_InputDemo\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5_InputDemo\Definitions.UE5_InputDemo.h"
-/Yu"C:\Users\jayvi\Downloads\UE5_InputDemo\Intermediate\Build\Win64\x64\UE5_InputDemoEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
-/Fp"C:\Users\jayvi\Downloads\UE5_InputDemo\Intermediate\Build\Win64\x64\UE5_InputDemoEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.pch"
-/Fo"C:\Users\jayvi\Downloads\UE5_InputDemo\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5_InputDemo\IADataConfig.cpp.obj"
-/sourceDependencies C:\Users\jayvi\Downloads\UE5_InputDemo\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5_InputDemo\IADataConfig.cpp.dep.json
+/FI"C:\Users\jayvi\source\UE5InputDemo\UE5_InputDemo\Intermediate\Build\Win64\x64\UE5_InputDemoEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
+/FI"C:\Users\jayvi\source\UE5InputDemo\UE5_InputDemo\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5_InputDemo\Definitions.UE5_InputDemo.h"
+/Yu"C:\Users\jayvi\source\UE5InputDemo\UE5_InputDemo\Intermediate\Build\Win64\x64\UE5_InputDemoEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
+/Fp"C:\Users\jayvi\source\UE5InputDemo\UE5_InputDemo\Intermediate\Build\Win64\x64\UE5_InputDemoEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.pch"
+/Fo"C:\Users\jayvi\source\UE5InputDemo\UE5_InputDemo\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5_InputDemo\IADataConfig.cpp.obj"
+/sourceDependencies C:\Users\jayvi\source\UE5InputDemo\UE5_InputDemo\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5_InputDemo\IADataConfig.cpp.dep.json
 /Zc:inline
 /nologo
 /Oi

@@ -1,7 +1,9 @@
 C:\Users\jayvi\Downloads\UE5_InputDemo\Source\UE5_InputDemo\UE5_InputDemo.cpp
 /I .
+/I C:\Users\jayvi\Downloads\UE5_InputDemo\Source\UE5_InputDemo\Private
 /I C:\Users\jayvi\Downloads\UE5_InputDemo\Intermediate\Build\Win64\UnrealEditor\Inc\UE5_InputDemo\UHT
 /I C:\Users\jayvi\Downloads\UE5_InputDemo\Source
+/I C:\Users\jayvi\Downloads\UE5_InputDemo\Source\UE5_InputDemo\Public
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
 /I Runtime

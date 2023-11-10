@@ -11,6 +11,7 @@
     <None Include="..\..\Source\UE5_InputDemoEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -70,6 +71,36 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\UE5_InputDemo\UE5_InputDemoProjectile.h">
       <Filter>Source\UE5_InputDemo</Filter>
+    </ClInclude>
+    <Filter Include="Source\UE5_InputDemo\Private">
+      <UniqueIdentifier>{73609878-6697-33FC-BE3D-6D59A3B8828D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\UE5_InputDemo\Private\IADataConfig.cpp">
+      <Filter>Source\UE5_InputDemo\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UE5_InputDemo\Private\IAInterface.cpp">
+      <Filter>Source\UE5_InputDemo\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UE5_InputDemo\Private\PCH.cpp">
+      <Filter>Source\UE5_InputDemo\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UE5_InputDemo\Private\PCH_Controller.cpp">
+      <Filter>Source\UE5_InputDemo\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\UE5_InputDemo\Public">
+      <UniqueIdentifier>{9288D86D-2531-3F61-8B4E-1EFA6B69E253}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\UE5_InputDemo\Public\IADataConfig.h">
+      <Filter>Source\UE5_InputDemo\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UE5_InputDemo\Public\IAInterface.h">
+      <Filter>Source\UE5_InputDemo\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UE5_InputDemo\Public\PCH.h">
+      <Filter>Source\UE5_InputDemo\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UE5_InputDemo\Public\PCH_Controller.h">
+      <Filter>Source\UE5_InputDemo\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

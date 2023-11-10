@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\jayvi\\Downloads\\UE5_InputDemo\\Source\\UE5_InputDemo\\UE5_InputDemo.Build.cs",
-		"C:\\Users\\jayvi\\Downloads\\UE5_InputDemo\\Source\\UE5_InputDemo.Target.cs",
-		"C:\\Users\\jayvi\\Downloads\\UE5_InputDemo\\Source\\UE5_InputDemoEditor.Target.cs"
+		"C:\\Users\\jayvi\\source\\UE5InputDemo\\UE5_InputDemo\\Source\\UE5_InputDemo\\UE5_InputDemo.Build.cs",
+		"C:\\Users\\jayvi\\source\\UE5InputDemo\\UE5_InputDemo\\Source\\UE5_InputDemo.Target.cs",
+		"C:\\Users\\jayvi\\source\\UE5InputDemo\\UE5_InputDemo\\Source\\UE5_InputDemoEditor.Target.cs"
 	],
 	"EngineVersion": "5.2.1"
 }

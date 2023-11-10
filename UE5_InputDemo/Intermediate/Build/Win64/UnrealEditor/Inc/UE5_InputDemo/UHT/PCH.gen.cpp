@@ -123,15 +123,15 @@ void EmptyLinkFunctionForGeneratedCodePCH() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APCH);
 	APCH::~APCH() {}
-	struct Z_CompiledInDeferFile_FID_Users_jayvi_Downloads_UE5_InputDemo_Source_UE5_InputDemo_Public_PCH_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_jayvi_source_UE5InputDemo_UE5_InputDemo_Source_UE5_InputDemo_Public_PCH_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_jayvi_Downloads_UE5_InputDemo_Source_UE5_InputDemo_Public_PCH_h_Statics::ClassInfo[] = {
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_jayvi_source_UE5InputDemo_UE5_InputDemo_Source_UE5_InputDemo_Public_PCH_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_APCH, APCH::StaticClass, TEXT("APCH"), &Z_Registration_Info_UClass_APCH, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APCH), 1607860808U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_jayvi_Downloads_UE5_InputDemo_Source_UE5_InputDemo_Public_PCH_h_3256940718(TEXT("/Script/UE5_InputDemo"),
-		Z_CompiledInDeferFile_FID_Users_jayvi_Downloads_UE5_InputDemo_Source_UE5_InputDemo_Public_PCH_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_jayvi_Downloads_UE5_InputDemo_Source_UE5_InputDemo_Public_PCH_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_jayvi_source_UE5InputDemo_UE5_InputDemo_Source_UE5_InputDemo_Public_PCH_h_3256940718(TEXT("/Script/UE5_InputDemo"),
+		Z_CompiledInDeferFile_FID_Users_jayvi_source_UE5InputDemo_UE5_InputDemo_Source_UE5_InputDemo_Public_PCH_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_jayvi_source_UE5InputDemo_UE5_InputDemo_Source_UE5_InputDemo_Public_PCH_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
